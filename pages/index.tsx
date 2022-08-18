@@ -5,7 +5,7 @@ import Head from '../src/components/head'
 import Navbar from '../src/components/navbar'
 import Footer from '../src/layouts/footer'
 import Header from '../src/layouts/header'
-import { Container, LeftBox, RightBox } from './styles'
+import { Container, LeftBox, RightBox } from '../src/styles/index'
 
 const Home: NextPage = () => {
   return (
