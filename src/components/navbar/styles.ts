@@ -1,13 +1,36 @@
 import styled, { css } from 'styled-components'
 
-interface ButtonProps {
-  active?: boolean
+interface ContainerProps {
+  isOpen: boolean
 }
 
-export const Container = styled.div`
+interface ButtonProps {
+  active: boolean
+}
+
+export const Container = styled.nav<ContainerProps>`
+  background-color: ${props => props.theme.background};
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  right: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 4px;
+  height: 100%;
+  min-width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+  transition: 0.4s transform;
+  transform: ${props => (props.isOpen ? 'translateX(0%)' : 'translateX(100%)')};
+
+  @media screen and (min-width: 628px) {
+    position: static;
+    min-width: initial;
+    min-height: initial;
+    transform: none;
+  }
 `
 
 export const Button = styled.button<ButtonProps>`
@@ -51,16 +74,10 @@ export const Button = styled.button<ButtonProps>`
   ${props =>
     props.active &&
     css`
-      border: 2px solid ${props => props.theme.primary};
-      border-right: none;
-      border-left: none;
-
-      span {
-        gap: 16px;
-      }
-
       i {
         color: ${props => props.theme.primary};
       }
     `}
 `
+
+export const ArrowIcon = styled.i``

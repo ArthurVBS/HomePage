@@ -7,12 +7,10 @@ type Props = {
 
 const Head: React.FC<Props> = ({ title }) => {
   return (
-    <div>
-      <NextHead>
-        <title>{title}</title>
-        <link rel="icon" type="image/png" href="/favicon.png" />
-      </NextHead>
-    </div>
+    <NextHead>
+      <title>{title}</title>
+      <link rel="icon" type="image/png" href="/favicon.png" />
+    </NextHead>
   )
 }
 

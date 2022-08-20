@@ -2,6 +2,9 @@ import styled from 'styled-components'
 
 export const Container = styled.header`
   color: ${props => props.theme.text};
-  padding: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
   text-align: center;
 `

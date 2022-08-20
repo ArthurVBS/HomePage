@@ -1,10 +1,11 @@
 import React from 'react'
+import ToggleNavbar from '../../components/toggleNavbar'
 import { Container } from './styles'
 
 const Header: React.FC = () => {
   return (
     <Container>
-      <h1>Header</h1>
+      <ToggleNavbar />
     </Container>
   )
 }

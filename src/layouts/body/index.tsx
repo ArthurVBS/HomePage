@@ -12,6 +12,7 @@ import Tech from '../tech'
 
 import { useNavbar } from '../../contexts/NavbarContext'
 import { Container, LeftBox, RightBox } from './styles'
+import Card from '../../components/card'
 
 const Body: React.FC = () => {
   const { active } = useNavbar()
@@ -35,7 +36,7 @@ const Body: React.FC = () => {
     <Container>
       <LeftBox>
         <Header />
-        <Avatar />
+        <Card />
         <Navbar />
       </LeftBox>
       <RightBox>
