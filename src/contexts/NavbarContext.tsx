@@ -1,5 +1,4 @@
-import { createContext, ReactNode, useContext } from 'react'
-import usePersistedState from '../utils/usePersistedState'
+import { createContext, ReactNode, useContext, useState } from 'react'
 
 type navbarContextType = {
   active: string
@@ -20,7 +19,7 @@ const NavbarContext = createContext<navbarContextType>(initialValue)
 export const useNavbar = () => useContext(NavbarContext)
 
 export const NavbarContextProvider = ({ children }: navbarContextProps) => {
-  const [active, setActive] = usePersistedState('active', initialValue.active)
+  const [active, setActive] = useState(initialValue.active)
 
   return (
     <NavbarContext.Provider value={{ active, setActive }}>
