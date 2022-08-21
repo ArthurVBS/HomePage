@@ -7,6 +7,8 @@ export const Container = styled.section`
   justify-content: space-between;
   gap: 16px;
   width: 100%;
+  border-bottom: 2px solid ${props => props.theme.primary};
+  margin-bottom: 16px;
 
   @media (min-width: 628px) {
     width: calc(100% / 3); // 33.3%
@@ -17,6 +19,8 @@ export const Container = styled.section`
     left: 0;
     top: 0;
     border-right: 2px solid ${props => props.theme.primary};
+    border-bottom: none;
+    margin-bottom: none;
   }
 
   @media (min-width: 968px) {

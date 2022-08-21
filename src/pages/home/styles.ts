@@ -7,7 +7,7 @@ export const Container = styled.main`
   align-items: center;
   margin: auto 0;
   gap: 8px;
-  padding: 8px;
+  padding: 32px 8px;
 `
 
 export const Title = styled.h1`

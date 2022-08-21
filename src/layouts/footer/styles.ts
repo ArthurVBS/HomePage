@@ -6,8 +6,15 @@ export const Container = styled.footer`
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
+  border-top: 2px solid ${props => props.theme.primary};
+  margin-top: 16px;
   gap: 16px;
   padding: 8px;
+
+  @media (min-width: 628px) {
+    border-top: none;
+    margin-top: none;
+  }
 `
 
 export const Text = styled.p`
