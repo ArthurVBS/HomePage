@@ -7,7 +7,7 @@ export const Container = styled.footer`
   align-items: center;
   justify-content: space-around;
   gap: 16px;
-  padding: 16px;
+  padding: 8px;
 `
 
 export const Text = styled.p`
@@ -16,6 +16,7 @@ export const Text = styled.p`
   text-align: center;
   opacity: 0.7;
   transition: all 0.4s;
+  padding: 0;
 
   &:hover {
     opacity: 1;

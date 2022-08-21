@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Container = styled.div`
+export const Container = styled.section`
   background-color: ${props => props.theme.background};
   display: flex;
   flex-direction: column;
@@ -19,7 +19,7 @@ export const Container = styled.div`
     border-right: 2px solid ${props => props.theme.primary};
   }
 
-  @media (min-width: 1024px) {
+  @media (min-width: 968px) {
     width: calc(100% / 5); // 20%
   }
 `
