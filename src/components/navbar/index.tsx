@@ -1,13 +1,11 @@
 import React from 'react'
+import { Container } from './styles'
+
 import { useNavbar } from '../../contexts/NavbarContext'
-import { ArrowIcon, Button, Container } from './styles'
+import NavItem from '../navitem'
 
 const Navbar: React.FC = () => {
-  const { active, setActive, isOpen, setIsOpen } = useNavbar()
-
-  const handleClick = (newState: string) => {
-    setActive(newState)
-  }
+  const { isOpen, setIsOpen } = useNavbar()
 
   const closeSidebar = () => {
     setIsOpen(false)
@@ -16,40 +14,10 @@ const Navbar: React.FC = () => {
 
   return (
     <Container isOpen={isOpen} onClick={() => closeSidebar()}>
-      <Button active={active == 'home'} onClick={() => handleClick('home')}>
-        <span>
-          <i className="fas fa-home"></i>
-          Hello ^^
-        </span>
-        <ArrowIcon className="fas fa-arrow-right"></ArrowIcon>
-      </Button>
-
-      <Button active={active == 'repo'} onClick={() => handleClick('repo')}>
-        <span>
-          <i className="fas fa-laptop-code"></i>
-          Repositories
-        </span>
-        <ArrowIcon className="fas fa-arrow-right"></ArrowIcon>
-      </Button>
-
-      <Button
-        active={active == 'knowledge'}
-        onClick={() => handleClick('knowledge')}
-      >
-        <span>
-          <i className="fas fa-brain"></i>
-          Knowledge
-        </span>
-        <ArrowIcon className="fas fa-arrow-right"></ArrowIcon>
-      </Button>
-
-      <Button active={active == 'tech'} onClick={() => handleClick('tech')}>
-        <span>
-          <i className="fas fa-tools"></i>
-          Technologies
-        </span>
-        <ArrowIcon className="fas fa-arrow-right"></ArrowIcon>
-      </Button>
+      <NavItem title="Hello ^^" icon="fas fa-home" item="home" />
+      <NavItem title="Repositories" icon="fas fa-laptop-code" item="repo" />
+      <NavItem title="Knowledge" icon="fas fa-brain" item="knowledge" />
+      <NavItem title="Technologies" icon="fas fa-tools" item="tech" />
     </Container>
   )
 }

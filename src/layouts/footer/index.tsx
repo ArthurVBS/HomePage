@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
       <Text>
         Made with <span>♡</span> by{' '}
         <a
-          href="https://github.com/ArthurVBS/arthurvbs.vercel.app"
+          href="https://github.com/ArthurVBS/HomePage"
           target="_blank"
           rel="external noreferrer"
         >
