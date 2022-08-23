@@ -6,8 +6,13 @@ export const Container = styled.main`
   justify-content: center;
   align-items: center;
   margin: auto 0;
+  min-height: 100vh;
   gap: 8px;
   padding: 32px 8px;
+
+  @media (min-width: 628px) {
+    min-height: initial;
+  }
 `
 
 export const Title = styled.h1`
