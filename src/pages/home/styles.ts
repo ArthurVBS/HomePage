@@ -15,12 +15,12 @@ export const Container = styled.main`
 `
 
 export const Title = styled.h1`
-  font-size: 5em;
+  font-size: 6em;
   line-height: 0.8em;
   text-align: center;
 
   @media (min-width: 628px) {
-    font-size: 6em;
+    font-size: 6.5em;
   }
 
   @media (min-width: 968px) {
@@ -42,17 +42,27 @@ export const Subtitle = styled.h5`
   }
 `
 
+export const WrapperParagraph = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 16px;
+  padding: 16px;
+`
+
 export const Paragraph = styled.p`
   text-align: center;
-  padding: 16px;
-  margin-top: 16px;
 
   @media (min-width: 628px) {
     font-size: 1.1em;
+    max-width: 80%;
   }
 
   @media (min-width: 968px) {
     font-size: 1.2em;
+    max-width: 60%;
   }
 `
 
@@ -70,5 +80,18 @@ export const MailToLink = styled.a`
   &:hover {
     background-color: ${props => props.theme.primary};
     color: ${props => props.theme.background};
+  }
+`
+
+export const NavLink = styled.span`
+  color: ${props => props.theme.primary};
+  font-style: italic;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: underline transparent;
+  transition: text-decoration 0.4s;
+
+  &:hover {
+    text-decoration: underline;
   }
 `
