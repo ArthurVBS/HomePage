@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavbar } from '../../contexts/NavbarContext'
-import { ArrowIcon, Container } from './styles'
+import { ArrowIcon, Container, Item, ItemIcon } from './styles'
 
 type Props = {
   title: string
@@ -17,10 +17,10 @@ const NavItem: React.FC<Props> = ({ title, icon, item }) => {
 
   return (
     <Container active={active == item} onClick={() => handleClick(item)}>
-      <span>
-        <i className={icon}></i>
+      <Item>
+        <ItemIcon className={icon}></ItemIcon>
         {title}
-      </span>
+      </Item>
       <ArrowIcon className="fas fa-arrow-right"></ArrowIcon>
     </Container>
   )
