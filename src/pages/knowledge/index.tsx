@@ -8,10 +8,26 @@ const Knowledge: React.FC = () => {
       <p>Knowledge</p>
 
       <WrapperRibbonShapeCards>
-        <RibbonShapeCard title="Olá" content="lorem ipsum" />
-        <RibbonShapeCard title="Hello" content="lorem ipsum dolor" />
-        <RibbonShapeCard title="Hi there" content="lorem ipsum dolor" />
-        <RibbonShapeCard title="Hey ^^" content="lorem ipsum dolor" />
+        <RibbonShapeCard
+          title="Olá"
+          content="lorem ipsum"
+          icon="fas fa-database"
+        />
+        <RibbonShapeCard
+          title="Hello"
+          content="lorem ipsum dolor"
+          icon="fab fa-aws"
+        />
+        <RibbonShapeCard
+          title="Hi there"
+          content="lorem ipsum dolor"
+          icon="fab fa-js-square"
+        />
+        <RibbonShapeCard
+          title="Hey ^^"
+          content="lorem ipsum dolor"
+          icon="fab fa-java"
+        />
       </WrapperRibbonShapeCards>
     </Container>
   )

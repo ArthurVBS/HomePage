@@ -52,6 +52,20 @@ export const Title = styled.h3`
   padding: 4px;
 `
 
+export const Icon = styled.i`
+  color: ${props => props.theme.primary};
+  position: absolute;
+  top: 16px;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(32px + 16px);
+  height: 32px;
+  font-size: 1.2em;
+  padding: 4px;
+`
+
 export const ContentBox = styled.div`
   position: absolute;
   top: 50px;

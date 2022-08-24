@@ -1,17 +1,26 @@
 import React from 'react'
-import { Container, Content, ContentBox, RibbonShape, Title } from './styles'
+import {
+  Container,
+  Content,
+  ContentBox,
+  Icon,
+  RibbonShape,
+  Title,
+} from './styles'
 
 type Props = {
   title: string
   content: string
+  icon: string
 }
 
-const RibbonShapeCard: React.FC<Props> = ({ title, content }) => {
+const RibbonShapeCard: React.FC<Props> = ({ title, content, icon }) => {
   return (
     <Container>
       <RibbonShape>
         <Title>{title}</Title>
       </RibbonShape>
+      <Icon className={icon}></Icon>
       <ContentBox>
         <Content>{content}</Content>
       </ContentBox>
