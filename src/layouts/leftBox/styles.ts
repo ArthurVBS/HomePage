@@ -7,6 +7,7 @@ export const Container = styled.section`
   justify-content: space-between;
   gap: 16px;
   width: 100%;
+  z-index: 2;
   border-bottom: 2px solid ${props => props.theme.primary};
   margin-bottom: 16px;
 
