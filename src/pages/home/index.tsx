@@ -20,7 +20,7 @@ const Home: React.FC = () => {
 
   return (
     <Container>
-      <Card3d>
+      <Card3d data-aos="fade-down">
         <Title>Olá</Title>
         <Subtitle>(hello)</Subtitle>
 

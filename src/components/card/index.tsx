@@ -4,7 +4,7 @@ import { Container, Name } from './styles'
 
 const Card: React.FC = () => {
   return (
-    <Container>
+    <Container data-aos="fade-up">
       <Avatar />
       <Name>@ArthurVBS</Name>
     </Container>

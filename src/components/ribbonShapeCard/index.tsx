@@ -16,7 +16,7 @@ type Props = {
 
 const RibbonShapeCard: React.FC<Props> = ({ title, content, icon }) => {
   return (
-    <Container>
+    <Container data-aos="fade-up">
       <RibbonShape>
         <Title>{title}</Title>
       </RibbonShape>
