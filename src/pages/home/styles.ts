@@ -7,10 +7,51 @@ export const Container = styled.main`
   align-items: center;
   margin: auto 0;
   gap: 8px;
+  transform: skewY(2deg);
   padding: 32px 8px;
 
   @media (min-width: 628px) {
     min-height: initial;
+  }
+`
+
+export const Card3d = styled.div`
+  border: 2px solid ${props => props.theme.primary};
+  border-top: none;
+  border-right: none;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 32px 8px;
+  transition: all 0.5s;
+  min-width: 300px;
+  max-width: 80%;
+
+  &:before {
+    background-color: ${props => props.theme.primary};
+    content: '';
+    position: absolute;
+    top: -15px;
+    left: -2px;
+    width: calc(100% + 2px);
+    height: 15px;
+    transform-origin: bottom;
+    transform: skewX(-45deg);
+  }
+
+  &:after {
+    background-color: ${props => props.theme.primary};
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: -15px;
+    width: 15px;
+    height: calc(100% + 2px);
+    transform-origin: left;
+    transform: skewY(-45deg);
   }
 `
 
