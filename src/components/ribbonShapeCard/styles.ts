@@ -72,7 +72,38 @@ export const ContentBox = styled.div`
   left: 0;
   width: 100%;
   height: calc(100% - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 16px;
 `
 
-export const Content = styled.p``
+export const Content = styled.p`
+  text-indent: 1em;
+  text-align: justify;
+  font-size: 1.2em;
+`
+
+export const Link = styled.a`
+  background-color: ${props => props.theme.primary};
+  color: ${props => props.theme.background};
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 16px;
+  padding: 4px;
+  gap: 4px;
+  border: 2px solid ${props => props.theme.primary};
+  border-radius: 4px;
+  transition: background-color 0.4s, color 0.4s;
+
+  :hover {
+    background-color: ${props => props.theme.background};
+    color: ${props => props.theme.primary};
+  }
+
+  i {
+    font-size: 1.1em;
+  }
+`
