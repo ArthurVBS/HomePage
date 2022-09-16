@@ -2,19 +2,43 @@ import styled from 'styled-components'
 
 export const Container = styled.main`
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
+  gap: 16px;
+  flex-grow: 1;
   height: 100%;
   padding: 16px;
 
+  .item {
+    width: 100%;
+  }
+
+  .alice-carousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    height: 100%;
+    gap: 4px;
+    margin: 0;
+  }
+
+  .alice-carousel__dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+  }
+
   .alice-carousel__dots-item {
-    background-color: #c5c5c5;
+    background-color: transparent;
     width: 32px;
+    border: 2px solid ${props => props.theme.primary};
     border-radius: 8px;
-    transition: background-color 0.4s;
 
     &:hover {
-      background-color: #909090;
+      background-color: transparent;
     }
 
     @media (min-width: 628px) {

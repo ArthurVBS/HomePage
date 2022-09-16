@@ -9,6 +9,13 @@ export const Container = styled.div`
   padding: 16px;
 `
 
+export const Avatar = styled.img`
+  border-radius: 50%;
+  border: none;
+  max-width: 128px;
+  margin: 0 auto;
+`
+
 export const Name = styled.h2`
   color: ${props => props.theme.primary};
 `

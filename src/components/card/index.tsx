@@ -1,11 +1,13 @@
 import React from 'react'
-import Avatar from '../avatar'
-import { Container, Name } from './styles'
+import { Avatar, Container, Name } from './styles'
 
 const Card: React.FC = () => {
   return (
     <Container data-aos="fade-up">
-      <Avatar />
+      <Avatar
+        src="https://avatars.githubusercontent.com/u/84406367?v=4"
+        alt="Arthur's picture"
+      />
       <Name>@ArthurVBS</Name>
     </Container>
   )
