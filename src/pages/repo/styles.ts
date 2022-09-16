@@ -1,15 +1,28 @@
 import styled from 'styled-components'
 
 export const Container = styled.main`
-  padding: 16px;
-`
-
-export const WrapperRibbonShapeCards = styled.div`
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  align-content: center;
-  gap: 32px;
+  height: 100%;
   padding: 16px;
+
+  .alice-carousel__dots-item {
+    background-color: #c5c5c5;
+    width: 32px;
+    border-radius: 8px;
+    transition: background-color 0.4s;
+
+    &:hover {
+      background-color: #909090;
+    }
+
+    @media (min-width: 628px) {
+      width: 48px;
+    }
+  }
+
+  .alice-carousel__dots-item.__active {
+    background-color: ${props => props.theme.primary};
+  }
 `

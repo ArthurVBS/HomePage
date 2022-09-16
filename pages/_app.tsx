@@ -1,4 +1,5 @@
 import type { AppProps } from 'next/app'
+import 'react-alice-carousel/lib/alice-carousel.css'
 
 import { ThemeProvider } from 'styled-components'
 import { NavbarContextProvider } from '../src/contexts/NavbarContext'
