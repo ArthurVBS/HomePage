@@ -1,35 +1,35 @@
 [
   {
     "id": 1,
-    "title": "AboutTheBible",
-    "description": "Working...",
+    "title": "About The Bible",
+    "description": "A website that displays some information and curiosity from the Bible.",
     "image": {
       "src": "./undraw_build.svg",
       "alt": "working..."
     },
-    "techs": ["React", "JavaScript"],
+    "techs": ["React", "JavaScript", "HTML/CSS"],
     "github": {
-      "repo": "",
+      "repo": "https://github.com/ArthurVBS/AboutTheBible",
       "website": {
         "available": true,
-        "url": ""
+        "url": "https://arthurvbs.github.io/AboutTheBible/"
       }
     }
   },
   {
     "id": 2,
-    "title": "GeographyOfNations",
-    "description": "Working...",
+    "title": "Geography Of Nations",
+    "description": "A website that searches for and displays information about a nation.",
     "image": {
       "src": "./undraw_build.svg",
       "alt": "working..."
     },
-    "techs": ["React", "TypeScript"],
+    "techs": ["React", "TypeScript", "HTML/CSS"],
     "github": {
-      "repo": "",
+      "repo": "https://github.com/ArthurVBS/GeographyOfNations",
       "website": {
         "available": true,
-        "url": ""
+        "url": "https://arthurvbs.github.io/GeographyOfNations/"
       }
     }
   }
