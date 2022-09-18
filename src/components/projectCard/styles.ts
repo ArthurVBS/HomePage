@@ -101,14 +101,10 @@ export const ImageBox = styled.div`
   flex-grow: 1;
   order: -1;
   border-radius: 16px;
-  padding: 8px;
+  padding: 16px;
 
   @media (min-width: 768px) {
     order: initial;
+    max-width: 50%;
   }
-`
-
-export const Image = styled.img`
-  max-width: 360px;
-  width: 100%;
 `

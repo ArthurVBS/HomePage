@@ -2,10 +2,7 @@ export type projectType = {
   id: number
   title: string
   description: string
-  image: {
-    src: string
-    alt: string
-  }
+  images: string[]
   techs: string[]
   github: {
     repo: string

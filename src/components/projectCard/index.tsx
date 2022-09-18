@@ -1,8 +1,8 @@
 import React from 'react'
 import { projectType } from '../../types/projects'
+import ImageSlider from '../imageSlider'
 import {
   Container,
-  Image,
   ImageBox,
   Description,
   Title,
@@ -54,7 +54,7 @@ const ProjectCard: React.FC<Props> = ({ project }) => {
         </TextBox>
 
         <ImageBox data-aos="fade-left">
-          <Image src={project.image.src} alt={project.image.alt} />
+          <ImageSlider images={project.images} />
         </ImageBox>
       </Content>
     </Container>

@@ -3,10 +3,11 @@
     "id": 1,
     "title": "About The Bible",
     "description": "A website that displays some information and curiosity from the Bible.",
-    "image": {
-      "src": "./undraw_build.svg",
-      "alt": "working..."
-    },
+    "images": [
+      "./projects/about_the_bible-img01.png",
+      "./projects/about_the_bible-img02.png",
+      "./projects/about_the_bible-img03.png"
+    ],
     "techs": ["React", "JavaScript", "HTML/CSS"],
     "github": {
       "repo": "https://github.com/ArthurVBS/AboutTheBible",
@@ -20,10 +21,11 @@
     "id": 2,
     "title": "Geography Of Nations",
     "description": "A website that searches for and displays information about a nation.",
-    "image": {
-      "src": "./undraw_build.svg",
-      "alt": "working..."
-    },
+    "images": [
+      "./projects/geography_of_nations-img01.png",
+      "./projects/geography_of_nations-img02.png",
+      "./projects/geography_of_nations-img03.png"
+    ],
     "techs": ["React", "TypeScript", "HTML/CSS"],
     "github": {
       "repo": "https://github.com/ArthurVBS/GeographyOfNations",
