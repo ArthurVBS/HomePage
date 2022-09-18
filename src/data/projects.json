@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "title": "AboutTheBible",
+    "description": "Working...",
+    "image": {
+      "src": "./undraw_build.svg",
+      "alt": "working..."
+    },
+    "techs": ["React", "JavaScript"],
+    "github": {
+      "repo": "",
+      "website": {
+        "available": true,
+        "url": ""
+      }
+    }
+  },
+  {
+    "id": 2,
+    "title": "GeographyOfNations",
+    "description": "Working...",
+    "image": {
+      "src": "./undraw_build.svg",
+      "alt": "working..."
+    },
+    "techs": ["React", "TypeScript"],
+    "github": {
+      "repo": "",
+      "website": {
+        "available": true,
+        "url": ""
+      }
+    }
+  }
+]

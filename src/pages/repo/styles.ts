@@ -10,18 +10,22 @@ export const Container = styled.main`
   height: 100%;
   padding: 16px;
 
-  .item {
-    width: 100%;
-  }
-
   .alice-carousel {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     flex-grow: 1;
-    height: 100%;
+    min-height: 100%;
     gap: 4px;
     margin: 0;
+
+    & > div {
+      flex-grow: 1;
+    }
+  }
+
+  .alice-carousel__wrapper {
+    height: 100%;
   }
 
   .alice-carousel__dots {
