@@ -1,8 +1,9 @@
 import React from 'react'
+import { Container } from './styles'
+
+import { projectType } from '../../types/projects'
 import Carousel from '../../components/carousel'
 import ProjectCard from '../../components/projectCard'
-import { projectType } from '../../types/projects'
-import { Container } from './styles'
 
 const Repo: React.FC = () => {
   const projectsData = require('../../data/projects.json') as projectType[]

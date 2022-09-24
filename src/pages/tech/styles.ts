@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.main`
-  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 `
