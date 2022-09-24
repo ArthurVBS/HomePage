@@ -1,6 +1,6 @@
 import React from 'react'
 import { technologiesType } from '../../types/technologies'
-import { Container, Text, Section, Image } from './styles'
+import { Container, Text, Section, Image, Title, Description } from './styles'
 
 type Props = {
   techs: technologiesType[]
@@ -12,8 +12,10 @@ const FullPageScroll: React.FC<Props> = ({ techs }) => {
       return (
         <Section key={index}>
           <Text>
-            <h1>{tech.title}</h1>
-            <p>{tech.description}</p>
+            <Title>
+              {tech.title} <i className={tech.fontAwesomeIcon}></i>
+            </Title>
+            <Description>{tech.description}</Description>
           </Text>
           <Image src={tech.image} alt="Undraw Art" />
         </Section>

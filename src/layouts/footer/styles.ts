@@ -7,13 +7,12 @@ export const Container = styled.footer`
   align-items: center;
   justify-content: space-around;
   border-top: 2px solid ${props => props.theme.primary};
-  margin-top: 16px;
   gap: 16px;
   padding: 8px;
 
   @media (min-width: 628px) {
     border-top: none;
-    margin-top: none;
+    max-height: 40px;
   }
 `
 
@@ -65,6 +64,12 @@ export const Link = styled.a`
   &:hover {
     opacity: 1;
   }
+
+  @media (min-width: 628px) {
+    font-size: 0.9em;
+    width: 24px;
+    height: 24px;
+  }
 `
 
 export const Button = styled.button`
@@ -81,5 +86,11 @@ export const Button = styled.button`
 
   &:hover {
     opacity: 1;
+  }
+
+  @media (min-width: 628px) {
+    font-size: 0.9em;
+    width: 24px;
+    height: 24px;
   }
 `
