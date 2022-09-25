@@ -2,10 +2,10 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   position: relative;
-  width: 256px;
-  height: 360px;
+  width: 100%;
+  height: 100%;
   background: ${props => props.theme.background};
-  box-shadow: 6px 12px 24px #0000001a;
+  box-shadow: 6px 12px 24px #000000aa;
   border-radius: 16px;
 `
 

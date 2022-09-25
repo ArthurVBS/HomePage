@@ -11,24 +11,18 @@ import {
 
 type Props = {
   title: string
-  content: string
   icon: string
-  link: string
 }
 
-const RibbonShapeCard: React.FC<Props> = ({ title, content, icon, link }) => {
+const RibbonShapeCard: React.FC<Props> = ({ title, icon }) => {
   return (
-    <Container data-aos="fade-up">
+    <Container>
+      {/* data-aos="fade-right"*/}
       <RibbonShape>
         <Title>{title}</Title>
       </RibbonShape>
       <Icon className={icon}></Icon>
-      <ContentBox>
-        <Content>{content}</Content>
-        <Link href={link} target="_blank">
-          Github <i className="fab fa-github"></i>Repo
-        </Link>
-      </ContentBox>
+      <ContentBox></ContentBox>
     </Container>
   )
 }

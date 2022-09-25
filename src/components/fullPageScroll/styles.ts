@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  overflow: auto;
+  overflow: hidden;
   flex-grow: 1;
   width: 100%;
   height: 100%;
@@ -11,7 +11,7 @@ export const Container = styled.div`
   border-left: none;
 
   @media (min-width: 768px) {
-    height: 100%;
+    overflow: auto;
     max-height: calc(100vh - 40px); // 40px is the height of the footer
   }
 `
@@ -21,6 +21,7 @@ export const Section = styled.section`
   display: flex;
   flex-direction: column;
   width: 100%;
+  height: 100vh;
   scroll-snap-align: start;
 
   @media (min-width: 768px) {
@@ -114,7 +115,7 @@ export const Description = styled.p`
 `
 
 export const Image = styled.img`
-  max-width: 100%;
+  max-width: 80%;
   flex-grow: 1;
   padding: 16px;
   margin: 0 auto;
