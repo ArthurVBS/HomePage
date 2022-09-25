@@ -19,7 +19,7 @@ export const Title = styled.h1`
   letter-spacing: 0.1em;
   text-align: center;
 
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     font-size: 2.2em;
   }
 `
@@ -32,7 +32,7 @@ export const Content = styled.div`
   gap: 16px;
   flex-grow: 1;
 
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     flex-direction: row;
   }
 `
@@ -44,7 +44,7 @@ export const TextBox = styled.div`
   width: 100%;
   padding: 8px;
 
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     width: 50%;
   }
 `
@@ -55,7 +55,7 @@ export const Description = styled.p`
   font-size: 1.2em;
   flex-grow: 1;
 
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     font-size: 1.4em;
   }
 `
@@ -103,7 +103,7 @@ export const ImageBox = styled.div`
   border-radius: 16px;
   padding: 16px;
 
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     order: initial;
     max-width: 50%;
   }

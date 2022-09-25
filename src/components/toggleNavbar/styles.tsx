@@ -13,7 +13,7 @@ export const Container = styled.button`
   border: none;
   z-index: 2;
 
-  @media screen and (min-width: 628px) {
+  @media screen and (min-width: 768px) {
     display: none;
   }
 `

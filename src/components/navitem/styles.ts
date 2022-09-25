@@ -25,7 +25,7 @@ export const Container = styled.button<ContainerProps>`
       color: ${props => props.theme.background};
     }
 
-    @media (min-width: 628px) {
+    @media (min-width: 768px) {
       span {
         color: ${props => props.theme.background};
       }
@@ -43,14 +43,14 @@ export const Container = styled.button<ContainerProps>`
         color: ${props => props.theme.primary};
       }
 
-      @media (min-width: 628px) {
+      @media (min-width: 768px) {
         span {
           color: ${props => props.theme.text};
         }
       }
     `}
 
-  @media (min-width: 628px) {
+  @media (min-width: 768px) {
     justify-content: space-between;
   }
 `
@@ -63,7 +63,7 @@ export const Item = styled.span`
   letter-spacing: 1px;
   gap: 4px;
 
-  @media (min-width: 628px) {
+  @media (min-width: 768px) {
     font-size: initial;
   }
 `
@@ -74,7 +74,7 @@ export const ItemIcon = styled.i`
 export const ArrowIcon = styled.i`
   display: none;
 
-  @media (min-width: 628px) {
+  @media (min-width: 768px) {
     display: initial;
     color: ${props => props.theme.background};
   }

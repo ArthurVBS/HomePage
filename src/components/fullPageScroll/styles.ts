@@ -38,7 +38,7 @@ export const Section = styled.section`
     color: ${props => props.theme.background};
   }
 
-  @media (min-width: 1024px) {
+  @media (min-width: 992px) {
     flex-wrap: nowrap;
   }
 `
@@ -56,10 +56,9 @@ export const Nav = styled.nav`
     justify-content: center;
     align-items: center;
     gap: 16px;
-    order: 3;
   }
 
-  @media (min-width: 1024px) {
+  @media (min-width: 992px) {
     position: absolute;
     top: 0;
     left: 0;

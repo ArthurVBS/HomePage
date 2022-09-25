@@ -10,8 +10,8 @@ export const Container = styled.section`
   z-index: 2;
   border-bottom: 2px solid ${props => props.theme.primary};
 
-  @media (min-width: 628px) {
-    width: calc(100% / 3); // 33.3%
+  @media (min-width: 768px) {
+    width: calc(100% / 4); // 25%
     min-height: 100vh;
     height: 100%;
     overflow: visible;
@@ -22,7 +22,7 @@ export const Container = styled.section`
     border-bottom: none;
   }
 
-  @media (min-width: 968px) {
+  @media (min-width: 992px) {
     width: calc(100% / 5); // 20%
   }
 `
@@ -30,7 +30,7 @@ export const Container = styled.section`
 export const SFooter = styled.footer`
   display: none;
 
-  @media (min-width: 628px) {
+  @media (min-width: 768px) {
     background-color: ${props => props.theme.primary};
     display: flex;
     justify-content: center;

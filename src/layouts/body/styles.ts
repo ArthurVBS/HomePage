@@ -8,7 +8,7 @@ export const Container = styled.main`
   min-height: 100vh;
   height: 100%;
 
-  @media (min-width: 628px) {
+  @media (min-width: 768px) {
     flex-direction: row;
   }
 `

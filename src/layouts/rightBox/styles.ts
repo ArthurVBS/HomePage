@@ -7,13 +7,13 @@ export const Container = styled.section`
   flex-grow: 1;
   width: 100%;
 
-  @media (min-width: 628px) {
-    width: calc(100% / 3 * 2); // 66.6%
+  @media (min-width: 768px) {
+    width: calc(100% / 4 * 3); // 75%
     flex-grow: initial;
     min-height: 100vh;
   }
 
-  @media (min-width: 968px) {
+  @media (min-width: 992px) {
     width: calc(100% / 5 * 4); // 80%
   }
 `

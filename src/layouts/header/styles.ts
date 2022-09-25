@@ -11,7 +11,7 @@ export const Container = styled.header`
   padding: 8px;
   text-align: center;
 
-  @media (min-width: 628px) {
+  @media (min-width: 768px) {
     display: none;
   }
 `

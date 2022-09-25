@@ -10,7 +10,7 @@ export const Container = styled.footer`
   gap: 16px;
   padding: 8px;
 
-  @media (min-width: 628px) {
+  @media (min-width: 768px) {
     border-top: none;
     max-height: 40px;
   }
@@ -65,7 +65,7 @@ export const Link = styled.a`
     opacity: 1;
   }
 
-  @media (min-width: 628px) {
+  @media (min-width: 768px) {
     font-size: 0.9em;
     width: 24px;
     height: 24px;
@@ -88,7 +88,7 @@ export const Button = styled.button`
     opacity: 1;
   }
 
-  @media (min-width: 628px) {
+  @media (min-width: 768px) {
     font-size: 0.9em;
     width: 24px;
     height: 24px;

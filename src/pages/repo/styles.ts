@@ -45,7 +45,7 @@ export const Container = styled.main`
       background-color: transparent;
     }
 
-    @media (min-width: 628px) {
+    @media (min-width: 768px) {
       width: 48px;
     }
   }

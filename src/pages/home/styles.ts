@@ -10,7 +10,7 @@ export const Container = styled.main`
   transform: skewY(2deg);
   padding: 32px 8px;
 
-  @media (min-width: 628px) {
+  @media (min-width: 768px) {
     min-height: initial;
   }
 `
@@ -60,11 +60,11 @@ export const Title = styled.h1`
   line-height: 0.8em;
   text-align: center;
 
-  @media (min-width: 628px) {
+  @media (min-width: 768px) {
     font-size: 6.5em;
   }
 
-  @media (min-width: 968px) {
+  @media (min-width: 992px) {
     font-size: 7em;
   }
 `
@@ -74,11 +74,11 @@ export const Subtitle = styled.h5`
   text-align: center;
   font-style: italic;
 
-  @media (min-width: 628px) {
+  @media (min-width: 768px) {
     font-size: 0.9em;
   }
 
-  @media (min-width: 968px) {
+  @media (min-width: 992px) {
     font-size: 1em;
   }
 `
@@ -96,12 +96,12 @@ export const WrapperParagraph = styled.div`
 export const Paragraph = styled.p`
   text-align: center;
 
-  @media (min-width: 628px) {
+  @media (min-width: 768px) {
     font-size: 1.1em;
     max-width: 80%;
   }
 
-  @media (min-width: 968px) {
+  @media (min-width: 992px) {
     font-size: 1.2em;
     max-width: 60%;
   }
