@@ -1,18 +1,14 @@
 import type { AppProps } from 'next/app'
-import 'react-alice-carousel/lib/alice-carousel.css'
 
 import { ThemeProvider } from 'styled-components'
-import { NavbarContextProvider } from '../src/contexts/NavbarContext'
 import GlobalStyles from '../src/styles/global'
 import theme from '../src/styles/theme'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider theme={theme}>
-      <NavbarContextProvider>
-        <Component {...pageProps} />
-        <GlobalStyles />
-      </NavbarContextProvider>
+      <Component {...pageProps} />
+      <GlobalStyles />
     </ThemeProvider>
   )
 }
