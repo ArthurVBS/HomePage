@@ -16,7 +16,6 @@ const Navbar: React.FC = () => {
     <Container isOpen={isOpen} onClick={() => closeSidebar()}>
       <NavItem title="Home" icon="fas fa-home" item="home" />
       <NavItem title="Repositories" icon="fas fa-laptop-code" item="repo" />
-      <NavItem title="Knowledge" icon="fas fa-brain" item="knowledge" />
       <NavItem title="Technologies" icon="fas fa-tools" item="tech" />
     </Container>
   )
