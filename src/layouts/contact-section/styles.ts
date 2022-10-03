@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
 export const Container = styled.section`
-  background-color: ${props => props.theme.primary};
-  color: ${props => props.theme.background};
+  background-color: ${props => props.theme.background};
+  color: ${props => props.theme.text};
   display: flex;
   justify-content: center;
   align-items: center;

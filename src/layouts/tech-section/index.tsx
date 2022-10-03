@@ -1,12 +1,12 @@
 import React from 'react'
 import { Container } from './styles'
 
-const ContactSection: React.FC = () => {
+const TechSection: React.FC = () => {
   return (
     <Container>
-      <span>Contact - Section</span>
+      <span>Tech - Section</span>
     </Container>
   )
 }
 
-export default ContactSection
+export default TechSection

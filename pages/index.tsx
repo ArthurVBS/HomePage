@@ -7,6 +7,7 @@ import Footer from '../src/components/footer'
 import AboutSection from '../src/layouts/about-section'
 import ContactSection from '../src/layouts/contact-section'
 import Head from '../src/components/head'
+import TechSection from '../src/layouts/tech-section'
 
 const Home: NextPage = () => {
   useEffect(() => {
@@ -15,9 +16,10 @@ const Home: NextPage = () => {
 
   return (
     <>
-      <Head title="Arthur Silva" />
+      <Head title="Arthur V.B.S" />
       <Header />
       <AboutSection />
+      <TechSection />
       <ContactSection />
       <Footer />
     </>

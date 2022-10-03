@@ -44,6 +44,6 @@ export default createGlobalStyle`
     background-color: ${props => props.theme.background};
     color: ${props => props.theme.text};
     min-height: 100vh;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Poppins', sans-serif;
   }
 `

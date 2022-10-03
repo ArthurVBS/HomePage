@@ -15,6 +15,7 @@ export const Container = styled.header`
 
 export const Logo = styled.h3`
   font-size: 1.8em;
+  letter-spacing: 1px;
   font-weight: 400;
 `
 

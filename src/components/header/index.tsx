@@ -10,7 +10,7 @@ import {
 const Header: React.FC = () => {
   return (
     <Container>
-      <Logo>Arthur Silva</Logo>
+      <Logo>&lt; Arthur V.B.S &gt;</Logo>
 
       <LinkWrapper>
         <ExternalLink
