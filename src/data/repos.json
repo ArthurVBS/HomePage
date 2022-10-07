@@ -1,20 +1,17 @@
 [
   {
-    "id": "1",
+    "id": 1,
     "title": "About The Bible",
-    "description": "....",
-    "image": {
-      "src": "",
-      "alt": ""
+    "description": "A website that displays some information and curiosity from the Bible.",
+    "image": "./pexels_bible.jpg",
+    "github": {
+      "repo": "https://github.com/ArthurVBS/AboutTheBible",
+      "site": "https://arthurvbs.github.io/AboutTheBible/"
     },
     "technologies": [
       {
-        "name": "HTML",
-        "icon": "fab fa-html5"
-      },
-      {
-        "name": "CSS",
-        "icon": "fab fa-css3-alt"
+        "name": "React",
+        "icon": "fab fa-react"
       },
       {
         "name": "JavaScript",
@@ -23,35 +20,33 @@
     ]
   },
   {
-    "id": "2",
+    "id": 2,
     "title": "Geography Of Nations",
-    "description": "....",
-    "image": {
-      "src": "",
-      "alt": ""
+    "description": "A website that searches for and displays information about a nation.",
+    "image": "./pexels_world.jpg",
+    "github": {
+      "repo": "https://github.com/ArthurVBS/GeographyOfNations",
+      "site": "https://arthurvbs.github.io/GeographyOfNations/"
     },
     "technologies": [
       {
-        "name": "HTML",
-        "icon": "fab fa-html5"
+        "name": "React",
+        "icon": "fab fa-react"
       },
       {
-        "name": "CSS",
-        "icon": "fab fa-css3-alt"
-      },
-      {
-        "name": "JavaScript",
-        "icon": "fab fa-js"
+        "name": "TypeScript",
+        "icon": "far fa-keyboard"
       }
     ]
   },
   {
-    "id": "3",
+    "id": 3,
     "title": "Pixar Video",
-    "description": "....",
-    "image": {
-      "src": "",
-      "alt": ""
+    "description": "A website based on Netflix and Prime Video, but with a Pixar theme.",
+    "image": "./pexels_streaming.jpg",
+    "github": {
+      "repo": "https://github.com/ArthurVBS/PixarVideo",
+      "site": "https://arthurvbs.github.io/PixarVideo/"
     },
     "technologies": [
       {
@@ -59,35 +54,40 @@
         "icon": "fab fa-html5"
       },
       {
-        "name": "CSS",
-        "icon": "fab fa-css3-alt"
-      },
-      {
         "name": "JavaScript",
         "icon": "fab fa-js"
+      },
+      {
+        "name": "SASS",
+        "icon": "fab fa-sass"
       }
     ]
   },
   {
-    "id": "4",
-    "title": "Login System",
-    "description": "....",
-    "image": {
-      "src": "",
-      "alt": ""
+    "id": 4,
+    "title": "Movie Review",
+    "description": "A website where you can do a review about a movie with the number of stars.",
+    "image": "./pexels_review.jpg",
+    "github": {
+      "repo": "https://github.com/ArthurVBS/MovieReview",
+      "site": "https://avbs-moviereview.netlify.app/"
     },
     "technologies": [
       {
-        "name": "HTML",
-        "icon": "fab fa-html5"
+        "name": "React",
+        "icon": "fab fa-react"
       },
       {
-        "name": "CSS",
-        "icon": "fab fa-css3-alt"
+        "name": "TypeScript",
+        "icon": "far fa-keyboard"
       },
       {
-        "name": "JavaScript",
-        "icon": "fab fa-js"
+        "name": "Java",
+        "icon": "fab fa-java"
+      },
+      {
+        "name": "Spring",
+        "icon": "fas fa-seedling"
       }
     ]
   }

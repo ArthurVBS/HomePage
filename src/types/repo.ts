@@ -1,15 +1,18 @@
 export type RepoType = {
-  id: string
+  id: number
   title: string
   description: string
-  image: {
-    src: string
-    alt: string
-  }
+  image: string
+  github: GithubType
   technologies: TechnologiesType[]
 }
 
-export type TechnologiesType = {
+type GithubType = {
+  repo: string
+  site?: string
+}
+
+type TechnologiesType = {
   name: string
   icon: string
 }
