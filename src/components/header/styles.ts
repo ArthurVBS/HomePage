@@ -44,12 +44,10 @@ export const InternalLink = styled.a`
   font-weight: 700;
   padding: 8px 16px;
   margin-left: 8px;
-  border-radius: 2px;
-  box-shadow: 1px 1px 2px #00000080;
-  transition: transform 0.4s, box-shadow 0.4s;
+  opacity: 0.8;
+  transition: opacity 0.4s;
 
   &:hover {
-    transform: translate3d(-2px, -2px, 0);
-    box-shadow: 4px 4px 0 0 #00000080;
+    opacity: 1;
   }
 `

@@ -1,16 +1,12 @@
 import styled from 'styled-components'
 
 export const Container = styled.section`
-  background-color: ${props => props.theme.primary};
-  color: ${props => props.theme.background};
+  background-color: ${props => props.theme.background};
+  color: ${props => props.theme.text};
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 16px;
   min-height: 60vh;
-`
-
-export const Image = styled.img`
-  width: 100%;
-  max-width: 256px;
 `
