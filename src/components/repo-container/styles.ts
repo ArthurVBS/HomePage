@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.div`
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 16px 32px;
+  grid-gap: 32px;
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
@@ -20,12 +20,13 @@ export const InitialCard = styled.div`
   align-items: flex-start;
   grid-column: 1/2;
   gap: 32px;
-  padding-bottom: 16px;
+  padding-bottom: 32px;
   border-bottom: 2px solid ${props => props.theme.primary};
 
   @media (min-width: 768px) {
     grid-column: 1/3;
     grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 16px;
     border-bottom: none;
   }
 `

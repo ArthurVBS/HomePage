@@ -21,8 +21,8 @@ const Home: NextPage = () => {
       <Head title="Arthur V.B.S" />
       <Header />
       <AboutSection />
-      <RepoSection />
       <TechSection />
+      <RepoSection />
       <ContactSection />
       <Footer />
     </>
