@@ -4,7 +4,7 @@ import { Container } from './styles'
 
 const TechSection: React.FC = () => {
   return (
-    <Container>
+    <Container id="techs">
       <TechContainer />
     </Container>
   )

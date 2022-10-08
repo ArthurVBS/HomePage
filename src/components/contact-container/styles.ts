@@ -6,6 +6,7 @@ export const Container = styled.div`
   max-width: 960px;
   margin: 0 auto;
   gap: 32px;
+  padding: 16px;
 
   @media (min-width: 768px) {
     grid-template-columns: 1fr 2fr;

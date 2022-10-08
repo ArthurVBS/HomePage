@@ -4,7 +4,7 @@ import { Container } from './styles'
 
 const ContactSection: React.FC = () => {
   return (
-    <Container>
+    <Container id="contact">
       <ContactContainer />
     </Container>
   )
