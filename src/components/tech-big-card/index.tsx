@@ -1,10 +1,10 @@
 import React from 'react'
 
-import { TechType } from '../../types/tech'
+import { TechAreaType } from '../../types/tech-area'
 import { Container, Description, IconLogo, Title } from './styles'
 
 type Props = {
-  tech: TechType
+  tech: TechAreaType
 }
 
 const TechCard: React.FC<Props> = ({ tech }) => {

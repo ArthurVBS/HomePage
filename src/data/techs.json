@@ -1,31 +1,50 @@
 [
   {
-    "id": 1,
-    "title": "Frontend",
-    "description": "Frontend web development is the development of the graphical user interface of a website, so that users can view and interact with that website.",
-    "icon": "fas fa-laptop",
-    "technologies": [
-      "React",
-      "TypeScript",
-      "JavaScript",
-      "HTML/CSS",
-      "SASS",
-      "Next.js",
-      "Styled-Components"
-    ]
+    "title": "JavaScript",
+    "icon": "./icons/javascript.svg"
   },
   {
-    "id": 2,
-    "title": "Backend",
-    "description": "Backend development means working on server-side software, which focuses on everything you can't see on a website.",
-    "icon": "fas fa-server",
-    "technologies": ["Java", "Spring", "Hibernate", "PostgreSQL"]
+    "title": "TypeScript",
+    "icon": "./icons/typescript.svg"
   },
   {
-    "id": 3,
-    "title": "Mobile",
-    "description": "Mobile app development is the act or process by which a mobile app is developed for mobile devices.",
-    "icon": "fas fa-mobile-alt",
-    "technologies": ["React Native", "TypeScript", "Expo"]
+    "title": "React",
+    "icon": "./icons/react.svg"
+  },
+  {
+    "title": "Next.js",
+    "icon": "./icons/nextjs.svg"
+  },
+  {
+    "title": "HTML",
+    "icon": "./icons/html.svg"
+  },
+  {
+    "title": "CSS",
+    "icon": "./icons/css.svg"
+  },
+  {
+    "title": "Java",
+    "icon": "./icons/java.svg"
+  },
+  {
+    "title": "Spring",
+    "icon": "./icons/spring.svg"
+  },
+  {
+    "title": "PostgreSQL",
+    "icon": "./icons/postgresql.svg"
+  },
+  {
+    "title": "AWS",
+    "icon": "./icons/aws.svg"
+  },
+  {
+    "title": "Expo",
+    "icon": "./icons/expo.svg"
+  },
+  {
+    "title": "React Native",
+    "icon": "./icons/react.svg"
   }
 ]

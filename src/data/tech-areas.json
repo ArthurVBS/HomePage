@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Frontend",
+    "description": "Frontend web development is the development of the graphical user interface of a website, so that users can view and interact with that website.",
+    "icon": "fas fa-laptop"
+  },
+  {
+    "id": 2,
+    "title": "Backend",
+    "description": "Backend development means working on server-side software, which focuses on everything you can't see on a website.",
+    "icon": "fas fa-server"
+  },
+  {
+    "id": 3,
+    "title": "Mobile",
+    "description": "Mobile app development is the act or process by which a mobile app is developed for mobile devices.",
+    "icon": "fas fa-mobile-alt"
+  }
+]

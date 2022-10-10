@@ -5,7 +5,7 @@ interface Props {
 }
 
 export const Container = styled.nav<Props>`
-  background-color: ${props => props.theme.secondary};
+  background-color: ${props => props.theme.primary};
   z-index: 10;
   position: fixed;
   top: 0;

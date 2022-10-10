@@ -4,7 +4,7 @@ export type RepoType = {
   description: string
   image: string
   github: GithubType
-  technologies: TechnologiesType[]
+  technologies: TechnologyType[]
 }
 
 type GithubType = {
@@ -12,7 +12,7 @@ type GithubType = {
   site?: string
 }
 
-type TechnologiesType = {
+type TechnologyType = {
   name: string
   icon: string
 }
