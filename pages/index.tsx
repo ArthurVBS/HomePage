@@ -13,7 +13,7 @@ import RepoSection from '../src/layouts/repo-section'
 
 const Home: NextPage = () => {
   useEffect(() => {
-    Aos.init({ duration: 800, once: true })
+    Aos.init({ duration: 800 })
   })
 
   return (

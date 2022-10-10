@@ -8,7 +8,7 @@ type Props = {
 
 const TechSmallCard: React.FC<Props> = ({ tech }) => {
   return (
-    <Container>
+    <Container data-aos="flip-up">
       <Icon src={tech.icon} alt="Tech logo" />
       <Title>{tech.title}</Title>
     </Container>

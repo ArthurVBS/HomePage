@@ -45,7 +45,7 @@ const RepoCard: React.FC<Props> = ({ repo }) => {
   }
 
   return (
-    <Container>
+    <Container data-aos="fade-up">
       <Image src={repo.image} alt="Repo Image" />
       <Texts>
         <DetailsWrapper>
