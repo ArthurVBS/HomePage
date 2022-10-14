@@ -31,10 +31,29 @@ export const Container = styled.nav<Props>`
   }
 `
 
+export const InternalLinkWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+  }
+`
+
 export const InternalLink = styled.a`
   color: ${props => props.theme.background};
   letter-spacing: 1px;
   font-size: 1.2em;
+`
+
+export const ExternalLinkWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
 `
 
 export const ExternalLink = styled.a`

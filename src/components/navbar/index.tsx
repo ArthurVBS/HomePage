@@ -1,6 +1,12 @@
 import React from 'react'
 import { useNavbar } from '../../contexts/navbar-context'
-import { Container, ExternalLink, InternalLink } from './styles'
+import {
+  Container,
+  ExternalLink,
+  ExternalLinkWrapper,
+  InternalLink,
+  InternalLinkWrapper,
+} from './styles'
 
 const NavBar: React.FC = () => {
   const { isOpen, setIsOpen } = useNavbar()
@@ -12,24 +18,28 @@ const NavBar: React.FC = () => {
 
   return (
     <Container isOpen={isOpen} onClick={() => closeSidebar()}>
-      <InternalLink href="#techs">Techs</InternalLink>
-      <InternalLink href="#repos">Repos</InternalLink>
-      <InternalLink href="#contact">Contact</InternalLink>
+      <InternalLinkWrapper>
+        <InternalLink href="#techs">Techs</InternalLink>
+        <InternalLink href="#repos">Repos</InternalLink>
+        <InternalLink href="#contact">Contact</InternalLink>
+      </InternalLinkWrapper>
 
-      <ExternalLink
-        href="http://github.com/ArthurVBS"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i className="fab fa-github"></i>
-      </ExternalLink>
-      <ExternalLink
-        href="https://linkedin.com/in/arthurvbs/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i className="fab fa-linkedin-in"></i>
-      </ExternalLink>
+      <ExternalLinkWrapper>
+        <ExternalLink
+          href="http://github.com/ArthurVBS"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-github"></i>
+        </ExternalLink>
+        <ExternalLink
+          href="https://linkedin.com/in/arthurvbs/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-linkedin-in"></i>
+        </ExternalLink>
+      </ExternalLinkWrapper>
     </Container>
   )
 }
