@@ -12,19 +12,20 @@ const AboutContainer: React.FC = () => {
       <Box>
         <Subtitle>About me</Subtitle>
         <Paragraph>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-          tempore nulla, corrupti cum amet ipsa pariatur libero velit veniam
-          similique, eveniet ad sapiente mollitia obcaecati alias nisi, facere
-          officiis doloribus.
+          I'm Arthur Silva and I'm passionate about technology and how it can
+          change the world, so I program systems, websites and apps using the
+          technology to make lives easier. I'm currently searching for a
+          job/interneship as a Developer.
         </Paragraph>
       </Box>
+
       <Box>
         <Subtitle>Academy</Subtitle>
         <Paragraph>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-          tempore nulla, corrupti cum amet ipsa pariatur libero velit veniam
-          similique, eveniet ad sapiente mollitia obcaecati alias nisi, facere
-          officiis doloribus.
+          I'm a Systems Analysis and Development student at the Federal
+          Institute of Pernambuco, Brazil. Currently I'm in the fourth semester
+          and I'm looking for an internship or maybe a job. For now, I'm a
+          monitor in the Algorithms and Data Structure discipline.
         </Paragraph>
       </Box>
     </Container>

@@ -12,14 +12,14 @@ export const Container = styled.footer`
   min-height: 160px;
 `
 
-export const LinkWrapper = styled.div`
+export const Box = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 16px;
 `
 
-export const ExternalLink = styled.a`
+export const Link = styled.a`
   color: ${props => props.theme.background};
   font-size: 1.2em;
   opacity: 0.8;
@@ -28,6 +28,14 @@ export const ExternalLink = styled.a`
   &:hover {
     opacity: 1;
   }
+`
+
+export const Button = styled.button`
+  background-color: transparent;
+  color: ${props => props.theme.background};
+  cursor: pointer;
+  font-size: 1.2em;
+  border: none;
 `
 
 export const Text = styled.p`
