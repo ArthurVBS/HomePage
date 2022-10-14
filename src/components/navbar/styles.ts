@@ -1,31 +1,68 @@
 import styled from 'styled-components'
 
-interface ContainerProps {
+interface Props {
   isOpen: boolean
 }
 
-export const Container = styled.nav<ContainerProps>`
-  background-color: ${props => props.theme.background};
+export const Container = styled.nav<Props>`
+  background-color: ${props => props.theme.primary};
   z-index: 10;
   position: fixed;
   top: 0;
   right: 0;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
-  gap: 4px;
+  gap: 16px;
+  height: 100%;
   min-width: 100vw;
   min-height: 100vh;
   overflow: hidden;
-  padding-top: 16px;
-  padding-bottom: 16px;
   transition: 0.4s transform;
-  transform: ${props => (props.isOpen ? 'translateX(0%)' : 'translateX(100%)')};
+  transform: ${props => (props.isOpen ? 'translateY(0%)' : 'translateY(100%)')};
 
   @media screen and (min-width: 768px) {
     position: static;
-    min-width: initial;
-    min-height: initial;
+    min-width: inherit;
+    min-height: inherit;
+    flex-direction: row;
     transform: none;
+  }
+`
+
+export const InternalLinkWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+  }
+`
+
+export const InternalLink = styled.a`
+  color: ${props => props.theme.background};
+  letter-spacing: 1px;
+  font-size: 1.2em;
+`
+
+export const ExternalLinkWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+`
+
+export const ExternalLink = styled.a`
+  color: ${props => props.theme.background};
+  font-size: 1.2em;
+  opacity: 0.8;
+  transition: opacity 0.4s;
+
+  &:hover {
+    opacity: 1;
   }
 `

@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "title": "About The Bible",
+    "description": "A website that displays some information and curiosity from the Bible.",
+    "image": "./pexels_bible.jpg",
+    "github": {
+      "repo": "https://github.com/ArthurVBS/AboutTheBible",
+      "site": "https://arthurvbs.github.io/AboutTheBible/"
+    },
+    "technologies": [
+      {
+        "name": "React",
+        "icon": "fab fa-react"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "fab fa-js"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Geography Of Nations",
+    "description": "A website that searches for and displays information about a nation.",
+    "image": "./pexels_world.jpg",
+    "github": {
+      "repo": "https://github.com/ArthurVBS/GeographyOfNations",
+      "site": "https://arthurvbs.github.io/GeographyOfNations/"
+    },
+    "technologies": [
+      {
+        "name": "React",
+        "icon": "fab fa-react"
+      },
+      {
+        "name": "TypeScript",
+        "icon": "far fa-keyboard"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Pixar Video",
+    "description": "A website based on Netflix and Prime Video, but with a Pixar theme.",
+    "image": "./pexels_streaming.jpg",
+    "github": {
+      "repo": "https://github.com/ArthurVBS/PixarVideo",
+      "site": "https://arthurvbs.github.io/PixarVideo/"
+    },
+    "technologies": [
+      {
+        "name": "HTML",
+        "icon": "fab fa-html5"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "fab fa-js"
+      },
+      {
+        "name": "SASS",
+        "icon": "fab fa-sass"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Movie Review",
+    "description": "A website where you can do a review about a movie with the number of stars.",
+    "image": "./pexels_review.jpg",
+    "github": {
+      "repo": "https://github.com/ArthurVBS/MovieReview",
+      "site": "https://avbs-moviereview.netlify.app/"
+    },
+    "technologies": [
+      {
+        "name": "React",
+        "icon": "fab fa-react"
+      },
+      {
+        "name": "TypeScript",
+        "icon": "far fa-keyboard"
+      },
+      {
+        "name": "Java",
+        "icon": "fab fa-java"
+      },
+      {
+        "name": "Spring",
+        "icon": "fas fa-seedling"
+      }
+    ]
+  }
+]

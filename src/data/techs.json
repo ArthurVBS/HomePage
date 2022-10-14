@@ -1,0 +1,50 @@
+[
+  {
+    "title": "JavaScript",
+    "icon": "./icons/javascript.svg"
+  },
+  {
+    "title": "TypeScript",
+    "icon": "./icons/typescript.svg"
+  },
+  {
+    "title": "React",
+    "icon": "./icons/react.svg"
+  },
+  {
+    "title": "Next.js",
+    "icon": "./icons/nextjs.svg"
+  },
+  {
+    "title": "HTML",
+    "icon": "./icons/html.svg"
+  },
+  {
+    "title": "CSS",
+    "icon": "./icons/css.svg"
+  },
+  {
+    "title": "Java",
+    "icon": "./icons/java.svg"
+  },
+  {
+    "title": "Spring",
+    "icon": "./icons/spring.svg"
+  },
+  {
+    "title": "PostgreSQL",
+    "icon": "./icons/postgresql.svg"
+  },
+  {
+    "title": "AWS",
+    "icon": "./icons/aws.svg"
+  },
+  {
+    "title": "Expo",
+    "icon": "./icons/expo.svg"
+  },
+  {
+    "title": "React Native",
+    "icon": "./icons/react.svg"
+  }
+]
