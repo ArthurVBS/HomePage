@@ -24,6 +24,14 @@
     "icon": "./icons/css.svg"
   },
   {
+    "title": "AngularJS",
+    "icon": "./icons/angularjs.svg"
+  },
+  {
+    "title": "AWS",
+    "icon": "./icons/aws.svg"
+  },
+  {
     "title": "Java",
     "icon": "./icons/java.svg"
   },
@@ -36,15 +44,7 @@
     "icon": "./icons/postgresql.svg"
   },
   {
-    "title": "AWS",
-    "icon": "./icons/aws.svg"
-  },
-  {
-    "title": "Expo",
-    "icon": "./icons/expo.svg"
-  },
-  {
-    "title": "React Native",
-    "icon": "./icons/react.svg"
+    "title": "MySQL",
+    "icon": "./icons/mysql.svg"
   }
 ]

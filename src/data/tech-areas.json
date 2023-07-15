@@ -2,19 +2,19 @@
   {
     "id": 1,
     "title": "Frontend",
-    "description": "Frontend web development is the development of the graphical user interface of a website, so that users can view and interact with that website.",
+    "description": "Acting as a Web Developer I use stacks like AngularJS and React to build pages on the user side.",
     "icon": "fas fa-laptop"
   },
   {
     "id": 2,
     "title": "Backend",
-    "description": "Backend development means working on server-side software, which focuses on everything you can't see on a website.",
+    "description": "Acting as a Backend Developer I use the Spring Framework to manage the application's business rules.",
     "icon": "fas fa-server"
   },
   {
     "id": 3,
-    "title": "Mobile",
-    "description": "Mobile app development is the act or process by which a mobile app is developed for mobile devices.",
-    "icon": "fas fa-mobile-alt"
+    "title": "Database",
+    "description": "Acting in the data layer I use stacks like MySQL and PostgreSQL to manage the application data.",
+    "icon": "fas fa-database"
   }
 ]
