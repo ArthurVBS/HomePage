@@ -2,13 +2,13 @@
   {
     "id": 1,
     "title": "Frontend",
-    "description": "Acting as a Web Developer I use stacks like AngularJS and React to build pages on the user side.",
+    "description": "Acting as a Frontend Developer I use stacks like AngularJS, VueJS & React to build pages on the user side.",
     "icon": "fas fa-laptop"
   },
   {
     "id": 2,
     "title": "Backend",
-    "description": "Acting as a Backend Developer I use the Spring Framework to manage the application's business rules.",
+    "description": "Acting as a Backend Developer I use the Spring Boot with Java to manage the application's business rules.",
     "icon": "fas fa-server"
   },
   {
@@ -16,5 +16,23 @@
     "title": "Database",
     "description": "Acting in the data layer I use stacks like MySQL and PostgreSQL to manage the application data.",
     "icon": "fas fa-database"
+  },
+  {
+    "id": 4,
+    "title": "Cloud",
+    "description": "Acting in the cloud layer I use stacks like AWS & Google Cloud Manager to manage the cloud application.",
+    "icon": "fas fa-cloud"
+  },
+  {
+    "id": 5,
+    "title": "DevOps",
+    "description": "Acting as a DevOps I use the Jenkins, Docker & CI-CD programs to manage the development workflow.",
+    "icon": "fas fa-sync"
+  },
+  {
+    "id": 6,
+    "title": "General",
+    "description": "Acting as an employer I commonly create & update the documentation and I love to automate some stuffs.",
+    "icon": "fas fa-user"
   }
 ]

@@ -8,14 +8,6 @@
     "icon": "./icons/typescript.svg"
   },
   {
-    "title": "React",
-    "icon": "./icons/react.svg"
-  },
-  {
-    "title": "Next.js",
-    "icon": "./icons/nextjs.svg"
-  },
-  {
     "title": "HTML",
     "icon": "./icons/html.svg"
   },
@@ -24,12 +16,20 @@
     "icon": "./icons/css.svg"
   },
   {
+    "title": "VueJs",
+    "icon": "./icons/vue.svg"
+  },
+  {
     "title": "AngularJS",
     "icon": "./icons/angularjs.svg"
   },
   {
-    "title": "AWS",
-    "icon": "./icons/aws.svg"
+    "title": "React",
+    "icon": "./icons/react.svg"
+  },
+  {
+    "title": "Next.js",
+    "icon": "./icons/nextjs.svg"
   },
   {
     "title": "Java",
@@ -40,11 +40,27 @@
     "icon": "./icons/spring.svg"
   },
   {
+    "title": "MySQL",
+    "icon": "./icons/mysql.svg"
+  },
+  {
     "title": "PostgreSQL",
     "icon": "./icons/postgresql.svg"
   },
   {
-    "title": "MySQL",
-    "icon": "./icons/mysql.svg"
+    "title": "AWS",
+    "icon": "./icons/aws.svg"
+  },
+  {
+    "title": "GCM",
+    "icon": "./icons/gcm.svg"
+  },
+  {
+    "title": "Docker",
+    "icon": "./icons/docker.svg"
+  },
+  {
+    "title": "Jenkins",
+    "icon": "./icons/jenkins.svg"
   }
 ]

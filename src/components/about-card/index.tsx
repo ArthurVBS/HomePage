@@ -5,8 +5,7 @@ const AboutCard: React.FC = () => {
   return (
     <Container>
       <Title>
-        I'm a <span>full-stack web developer</span> based in{' '}
-        <span>Recife, Brazil.</span>
+        I'm a <span>Full Stack Software Engineer II</span>
       </Title>
       <Image
         src="https://avatars.githubusercontent.com/u/84406367?v=4"
