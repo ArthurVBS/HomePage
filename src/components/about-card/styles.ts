@@ -9,7 +9,6 @@ export const Container = styled.div`
 
   @media (min-width: 768px) {
     flex-direction: row;
-    align-items: stretch;
     margin: 64px 0px;
   }
 `
@@ -40,5 +39,5 @@ export const Image = styled.img`
   max-width: 256px;
   max-height: 256px;
   margin: auto;
-  border-radius: 4px;
+  border-radius: 50%;
 `

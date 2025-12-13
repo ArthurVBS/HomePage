@@ -12,29 +12,21 @@ const AboutContainer: React.FC = () => {
       <Box>
         <Subtitle>About me</Subtitle>
         <Paragraph>
-          I'm Arthur Silva and I'm a developer that love create websites & apis.
-          I'm actually based in Recife, Brazil. I'm a Portuguese speaker that
-          also speak English and I'm actually improving my French skills.
+          I am Arthur Silva, a developer who loves creating websites & applications. I am based in Recife, Brazil - a Portuguese speaker that also speaks English and that is improving the French skill. I am currently open to work in Canada.
         </Paragraph>
       </Box>
 
       <Box>
         <Subtitle>Academy</Subtitle>
         <Paragraph>
-          I'm a Systems Analysis and Development student at the Federal
-          Institute of Pernambuco, Brazil. Currently I'm finishing my conclusion
-          work. I was also a monitor in the Algorithms and Data Structure.
+          I am graduated in Systems Analysis and Development at the Federal Institute of Pernambuco, Brazil. Furthermore, I was a monitor in the Algorithms and Data Structure.
         </Paragraph>
       </Box>
 
       <Box>
         <Subtitle>Experience</Subtitle>
         <Paragraph>
-          I am a Full Stack Software Engineer II & Product Owner at the FADE
-          Cin/Motorola project, being responsible for maintaining and adding new
-          features to Motorola's internal software. Assuming an important role
-          in the scrum methodology and using the stacks: Spring, Java, MySQL,
-          AngularJS, VueJS, TypeScript, Google Cloud Platform, Docker.
+          I am a Full Stack Software Engineer II & Product Owner at the FADE Cin/Motorola project. I'm responsible for the development of Motorola's internal tools, as well as sprint support, tool backlog, automation and CI-CD.
         </Paragraph>
       </Box>
     </Container>
